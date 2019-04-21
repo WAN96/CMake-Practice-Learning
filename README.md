@@ -9,14 +9,16 @@ CMake 是构建项目必不可少的编译语言体系，学习CMake有助于我
 ## 说明
 本项目提供的程序均来自CMake Practice书
 
-  test1 对应第三节
-  test2 对应第四节
-  test3 对应第五节
+    test1 对应第三节
+    test2 对应第四节
+    test3 对应第五节
 
 ***
 
 ## 书中遇到的问题
 ### 第五节：
 按照书中所讲：我们要设置
-  SET_TARGET_PROPERTIES(hello PROPERTIES CLEAN_DIRECT_OUTPUT 1)
+
+    SET_TARGET_PROPERTIES(hello PROPERTIES CLEAN_DIRECT_OUTPUT 1)
+
 之后动态与静态库在重名的情况下才不会在构建时清理掉其中一个，但我试了两次在不加入这个语句的情况下也可以同时构建
